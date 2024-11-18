@@ -12,7 +12,7 @@ const UpcomingEvents = () => {
     }
 
     const Data = [
-        EventData('08', 'August', 'Paris Readers Summit', '4 killo Abrhot', '4:30LT - 6:30LT'),
+        EventData('08', 'August', 'Paris Readers', '4 killo Abrhot', '4:30LT - 6:30LT'),
         EventData('20', 'September', 'Tizeta Book review ', 'killo Abrhot', '4:30LT - 6:30LT'),
         EventData('12', 'October', 'Tizeta Book review', 'killo Abrhot', '4:30LT - 6:30LT'),
         EventData('16', 'November', 'Jano Books', 'killo Abrhot', '4:30LT - 6:30LT'),
@@ -27,7 +27,7 @@ const UpcomingEvents = () => {
             </div>
             <div className="flex flex-row gap-[20px] w-[930px] h-[320px] overflow-x-auto whitespace-nowrap hide-scrollbar">
                 {Data.map((event, index) => (
-                    <div key={index} className="inline-block flex-col border p-4 rounded-lg shadow-md bg-[#CCCBE9] h-[319px] w-[308px] ">
+                    <div key={index} className="inline-block flex-col border p-4 rounded-lg shadow-md bg-[#CCCBE9] h-[319px] w-[380px] ">
                         <div className="flex flex-col mt-8 ">
                             <div className="ml-2 text-[60px] font-normal leading-[73px] text-[#343434] w-[87px] h-[73px] font-inter">{event.Date}</div>
                             <div className="ml-2 text-xl -mt-[2px] text-[#343434] text-[24px]">{event.Month}</div>

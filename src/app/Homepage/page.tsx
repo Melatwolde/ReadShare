@@ -9,7 +9,10 @@ import NewlyReleasedCards from '../components/homepage_component/newlyreleasedca
 const HomePage = () => {
     return (
         <div>
-            <MainPage>
+                
+             <MainPage/>
+                
+            <div className='ml-28 bg-[#FCF8F5] h-[1000px]   pl-6 pt-8 rounded-[32px]'>
                 <div className='flex flex-row gap-12'>
                     <div className='flex flex-row  h-[470px]'>
                         <BookCards/>
@@ -22,8 +25,9 @@ const HomePage = () => {
                 <div className=' -mt-[480px]'>
                     <UpcomingEvents/>
                 </div>
-                
-            </MainPage>
+            </div>
+            
+           
         </div>
     );
 };
