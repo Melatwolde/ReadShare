@@ -41,7 +41,7 @@ export default function Home() {
     {/* <DiscoverbookClubs/> */}
     {/* <NewlyReleasedCards/> */}
     {/* <MainPage children={undefined} /> */}
-    {/* <HomePage/> */}
+    <HomePage/>
     {/* <Book_Description/> */}
     {/* <Login/> */}
     {/* <Reading_Page/> */}
@@ -57,7 +57,7 @@ export default function Home() {
     {/* <User_Profile/> */}
     {/* <Bookmarkspage/> */}
     {/* <UploadedBooks/> */}
-    <File_Upload/>
+{/*     <File_Upload/> */}
    </main>
   );
 }
