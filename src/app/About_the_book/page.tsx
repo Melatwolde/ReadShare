@@ -98,8 +98,10 @@ const Book_Description = () => {
     const book = Data[currentIndex];
 
     return (
-        <MainPage disableStyles={true}>
-            <div className="flex ml-7">
+        
+            <div>
+                <div><MainPage/></div>
+                <div className="flex ml-[100px]">
                 <div key={currentIndex} className="transition-transform duration-500 ease-in-out transform">
                     <div className="flex flex-row ml-14 gap-4">
                         <div className="flex flex-col gap-4">
@@ -125,7 +127,7 @@ const Book_Description = () => {
                         </div>
                     </div>
 
-                    <div className="flex flex-row w-[1351px] h-screen bg-white -mt-[86px] pt-32 pl-14 gap-16">
+                    <div className="flex flex-row w-[1351px] h-[554px] bg-white -mt-[86px] pt-32 pl-14 gap-16">
                         <div className="flex flex-col gap-[53px]">
                             <div className="w-[176px] h-[39px] font-[500px] text-[32px] text-[#343434]">Description</div>
                             <div className="w-[565px] h-[168px] font-normal text-[20px] text-[#343434]">{book.Description}</div>
@@ -150,8 +152,9 @@ const Book_Description = () => {
                         </div>
                     </div>
                 </div>
+                </div>
             </div>
-        </MainPage>
+       
     );
 };
 
